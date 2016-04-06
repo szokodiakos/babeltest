@@ -1,0 +1,6 @@
+{
+  "extends": ["codingsans/babel", "codingsans/mochaTestExt"],
+  "rules": {
+    "func-names": "off"
+  }
+}
