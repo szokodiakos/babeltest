@@ -1,0 +1,11 @@
+{
+  "presets": [
+    "es2015-node4"
+  ],
+  "plugins": [
+    "transform-async-to-generator",
+    "transform-class-constructor-call",
+    "transform-class-properties",
+    "transform-object-rest-spread"
+  ]
+}

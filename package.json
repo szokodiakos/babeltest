@@ -1,0 +1,25 @@
+{
+  "name": "babeltest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node ./src/index.js",
+    "build": "babel src --out-dir build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.6.5",
+    "babel-eslint": "^6.0.2",
+    "babel-plugin-transform-async-to-generator": "^6.7.4",
+    "babel-plugin-transform-class-constructor-call": "^6.6.5",
+    "babel-plugin-transform-class-properties": "^6.6.0",
+    "babel-plugin-transform-object-rest-spread": "^6.6.5",
+    "babel-preset-es2015-node4": "^2.1.0",
+    "eslint": "^2.7.0",
+    "eslint-config-codingsans": "^2.0.0"
+  }
+}
